@@ -1,5 +1,5 @@
 init:
-	pipenv install
+	pip install pipenv
 install:
 	pipenv install --dev
 env:
