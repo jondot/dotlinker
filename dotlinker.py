@@ -70,17 +70,17 @@ def link(src, target, io):
 
 
 def main():
-    doc = """dotfiles-link
+    doc = """dotlinker
         Usage:
-        dotfiles-link <from> <to> [--dry-run]
-        dotfiles-link --version
+        dotlinker <from> <to> [--dry-run]
+        dotlinker --version
 
         Options:
         -d --dry-run     Perform dry run (don't apply changes to filesystem)
         --version        Show version.
         -h --help        Show this screen.
         """
-    args = docopt(doc, version="dotfiles 1.0")
+    args = docopt(doc, version="dotlinker 0.1.2")
     (source, target, dry_run) = get(['<from>', '<to>', '--dry-run'])(args)
     IO = DryRunIO if dry_run else FileSystemIO
     link(source, target, IO())

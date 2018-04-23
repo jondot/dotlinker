@@ -10,7 +10,7 @@ with open('LICENSE') as f:
 
 setup(
     name='dotlinker',
-    version='0.1.1',
+    version='0.1.2',
     description='Links dotfiles',
     long_description=readme,
     author='Dotan Nahum',
