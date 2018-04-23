@@ -14,6 +14,7 @@ setup(
     description='Links dotfiles',
     long_description=readme,
     author='Dotan Nahum',
+    data_files=[('', ['LICENSE', 'README.md'])],
     author_email='jondotan@gmail.com',
     url='https://github.com/jondot/dotlinker',
     license=license,
