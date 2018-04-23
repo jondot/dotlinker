@@ -14,6 +14,9 @@ jobs:
       deploy:
         provider: pypi
         user: jondot
+        on:
+          tags: true
+          skip_cleanup: true
         password: 
           secure: B5Vr7KTrfylqcfAYr2IeN3vzZBWzyc6RWQTVAXXuX+9JmhlXoxrmL4sTcGN5wgAoYB/9mC/KE4U+B/bjIY24VKuwuCyh3wDH6YlYi7dyekWz7a5HR3AMPn4CHnNS5JoD2QfRgR3pS0wCQuwZMKQcYgQMBzEoUZI8mzNwIYeh07TZGne1GLLYMvUB9xX1kjbrx6X27OB57e1dqVkiq22VqaLVp+kWnxnjIaReH+SK3h5qz0qe3twtnZGHkvaaE51z1cQ+kVyGdAz+n9lM0T+1SrAQJXLMMdpjzKsfnrLaLmWUOCpL5mYy2Fkc77sKUHPZuYlj6Pu+hXctD/9aO8QGV+ROq13tLHf9tPmS4RiD0Dufo8N/U2Xd9qztzyPvqjEPLQB8iZnRyF7/v6R8FCzToWto/u7AtgjzUe46fuMr7alJgnRsMdyx8X8rZjaVWJyWlfCMblMGGJY2gY0e1Kj+gO9gkYm8vBxgxaT64OuKuSOiBAoTh+OZ60d+vVATsVNze0Y8qD+qHddR/HwPq7lBjXojgfyhAwDXTJH9b7+wYChmkUzkE6R0myOYrjPSHHnKZZIAbhDJABNXycpDbd7CyJp+e9y4tOaXIG4oDcssETO5Dzb+AHyHGluCF1bZcDLJ5hLY55fpC4BTPbNVRmNMGRuuOwZMSC7QHQIyxUOeyxw=
     
